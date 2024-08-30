@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>À procura do castelo de Hogwarts</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpg" alt="">
+            <p> Você é uma pessoa jovem e corajosa, que sempre sonhou em estudar na lendária Escola de Magia e Bruxaria de Hogwarts. Ao receber sua carta de aceitação, descobre que o caminho para Hogwarts é repleto de desafios mágicos e decisões cruciais.Sua jornada começa na Floresta Proibida, um lugar sombrio e misterioso cheio de criaturas mágicas. Para continuar, você precisa escolher entre dois caminhos dentro da floresta.</p>
+            <button class="btn-proximo" data-proximo="1">Seguir o rastro de unicórnios</button>
+            <button class="btn-proximo" data-proximo="2">Seguir uma trilha escura de pegadas de lobisomem</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Seguindo o rastro de unicórnios, você encontra uma árvore mágica que lhe concede um feitiço especial para se proteger de perigos futuros.</p>
+            <button class="btn-proximo" data-proximo="3">Continuar explorando a floresta</button>
+            <button class="btn-proximo" data-proximo="4">Retornar ao início da exploração</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Seguindo a trilha de pegadas, você é confrontado por um lobisomem, mas consegue escapar e descobrir um amuleto antigo que emite uma luz dourada.</p>
+            <button class="btn-proximo" data-proximo="5">Decifrar o código por traz da luz</button>
+            <button class="btn-proximo" data-proximo="6">Encontrar outra saída</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Após atravessar a floresta, você chega ao Lago Negro, cujas águas profundas escondem muitos segredos. Para continuar, é necessário nadar até o outro lado</p>
+            <button class="btn-proximo" data-proximo="7">Mergulhar nas águas e nadar</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.webp" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você encontra Harry Potter no meio do caminho avisando que o local é perigoso demais para ser explorado á noite e leva você até a casa dele para vocês tentarem novamente no próximo dia.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Decifrando a luz, você descobre um mapa antigo escondido atrás de um altar, apontando que a próxima
+                pista está logo adiante.</p>
+            <button class="btn-proximo" data-proximo="7">Continuar andando</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p> Você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e decifrar a luz</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Chegando do outro lado do lago, a busca por Hogwarts se intensifica e você se depara com dois caminhos bifurcados.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Decifrando a luz, você finalmente encontra um mapa antigo que mostra a localização secreta de uma pista!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir até ela</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O caminho à esquerda leva você a uma cachoeira mágica escondida com inscrições antigas que revelam a entrada de
+                Hogwarts.</p>
+            <button class="btn-proximo" data-proximo="11">Utilizar feitiços para abrir a entrada</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O caminho à direita termina em uma área profunda e escura. Apesar de belas vistas, não há sinais da Hogwarts
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo12-cidade-perdida.jpg" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro de Hogwarts, você reencontra seus amigos e decide se dedicar a estudar e aprender cada vez mais sobre esse mundo mágico</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo esse caminho, você finalmente encontra a cachoeira mágica escondida e as inscrições
+                que levam à Hogwarts.</p>
+            <button class="btn-proximo" data-proximo="11">Utilizar os feitiços secretos para abrir a passagem</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
